@@ -3,14 +3,12 @@
 =======
 # Accounting methods
 
-| _Assets = Liability + Capital_ |
-this model relies on accumulation of  5 different Accounting Ratios
+ _Assets = Liability + Capital_ |
 
 
 this model assumes:
--  All data are correct ( no scenario for data manipulation)
--  No additional, Sudden Emergency Cash Inflows (i.e. Bank loans, or bonds )
->>>>>>> 113f9320439f37af98834ee26c6a3f4f6d3d466f
+
+>>>>>>>
 
 this repo explains **accounting methods**
 - 
