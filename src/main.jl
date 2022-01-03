@@ -3,6 +3,6 @@
 """
 WIP
 
-this file containis the main instrutions
+this 'File Container' has the main instrutions
 
 """
