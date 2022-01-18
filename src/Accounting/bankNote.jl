@@ -31,7 +31,10 @@ end
 
 #The must-have factor
 """
-based on netwon's renowned f = m * a in classical phyiscs
+velocity [1t derivative]
+acceleration [2nd derivative]: based on netwon's renowned f = m * a , where a = f/m
+# edit: either : 1. Elaborate on the Context(newton), change line above to somewhere
+(more)
 a dollar has a physical value, that is changing by changin the
 1. velocity:
 2. acceleration:
