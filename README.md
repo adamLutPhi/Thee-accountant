@@ -27,7 +27,15 @@ this repo explains **accounting methods**
 - IFRS (worldwide)
 - GAAP (US)
 
+# the tip point 
 
+## the Applied Plane
+edited the Asset directory
+## the Abstract Plane
+reached
+ 1. the []()value 
+ 2. the Idea 
+ 
 ## References
 (being ready to get compiled & written)
 
