@@ -5,11 +5,12 @@ function Account()
 end
 =#
 
-module Account
-
-Enum accountType = "Debit","Credit"
-
-end
+module TAccount
+#Enum accountOp = Dr,Cr
+#Enum accountType = "Debit","Credit"
+@enum Dr 1 2
+@enum  accountOp(@enum (Dr 1 2) ,  @enum (Cr 1 2 )) 
+@enum begin accountType Debit=1, Credit=2 end
 
 function increment(account, amount)
 account =  account + amount
@@ -50,12 +51,15 @@ Books can increase + or decrease in value -
 but each increment in a book has a
 
 """
-module transaction
-Id:: Int # Auto-Increments
+
+function transaction(accountType,date, DrAccount,CrAccount)
+
+global Id:: Int # Auto-Increments
 
 function run()
 DebitAmount(date, amount )
 CreditAmount(date, amount)
+
 end
 
 function DebitAccount(date, amount)
@@ -80,3 +84,4 @@ end
 end
 
 transaction()
+end

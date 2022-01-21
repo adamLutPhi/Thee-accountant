@@ -1,4 +1,4 @@
-"""
+```
 The Accounting Trinity or [CAL]!
 
 []: important (somehow) - it's objective alright
@@ -25,9 +25,10 @@ the actual Owner: for whom the Account belongs to - usualy 1 or more Seperate en
 together, they make up the following Golden (brown) Equation:
 
                 Assets = Liabilites + Capital
-"""
+```
 # the Accounting Equation , :
 ## Assets = Liabilites + Capital
+
 ## ---
 
 module findtheThird
@@ -146,7 +147,7 @@ i=i+1
 end
 print(_out)
 
-#--- parse stuff - input: file
+#--- testing Area: parse stuff - input: file
 
 
 function parsestuff(file)
