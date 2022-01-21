@@ -1,8 +1,8 @@
-mutable struct Account
+ struct Account <: Value
     id::Int64
     name:: String
-
-    Account()
+    bookValue::Double
+    marketValue:Double
 
     end
 end

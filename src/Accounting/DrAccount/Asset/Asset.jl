@@ -1,3 +1,5 @@
-mutable struct Assets
-    #fields
+
+
+struct Asset <: Account
+
 end

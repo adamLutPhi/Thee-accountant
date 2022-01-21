@@ -8,7 +8,7 @@ include("")
   2. busiess: an investment for day-to-day operations
   #reason: to pay of its (paid )book price
 
-  E.g: Land, Building,
+  E.g: Land, Building,Equipment(PC, printer, Phone,)
 
 ```
 
