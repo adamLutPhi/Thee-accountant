@@ -16,6 +16,7 @@ there must be a meta-idea : explaining an idea
 an idea is indifferent on its own; it makes no Difference ....
 so...*Ponders....*
 
+what makes an idea, an idea?
 ```
 
 struct idea <: Nothing # is it nothing, or something.. of value??
