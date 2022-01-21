@@ -1,6 +1,6 @@
 
 # Julia's Accounting
-
+[![wakatime](https://wakatime.com/badge/user/e5f8f2ad-46c8-449c-9ccb-a1f10dfae801/project/b1919a10-df1b-4742-889b-a520ddb7a401.svg)](https://wakatime.com/badge/user/e5f8f2ad-46c8-449c-9ccb-a1f10dfae801/project/b1919a10-df1b-4742-889b-a520ddb7a401)
 ## Accounting methods
 
  _Assets = Liability + Capital_
