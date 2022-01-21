@@ -9,9 +9,18 @@ module TAccount
 #Enum accountOp = Dr,Cr
 #Enum accountType = "Debit","Credit"
 @enum Dr 1 2
-@enum  accountOp(@enum (Dr 1 2) ,  @enum (Cr 1 2 )) 
+@enum  accountOp(@enum (Dr 1 2) ,  @enum (Cr 1 2 ))
 @enum begin accountType Debit=1, Credit=2 end
 
+```
+var: TypeVar
+  name: Symbol T
+  lb: Union{}
+  ub: Integer <: Real
+body: Enum{T<:Integer} <: Any
+
+```
+dump(Enum)
 function increment(account, amount)
 account =  account + amount
 
