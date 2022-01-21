@@ -23,6 +23,14 @@ struct idea <: Nothing # is it nothing, or something.. of value??
 is it nothing, in the real plane, or in the complex plane
 (before that) where does the real plane start, & the complex plane meet with it?
 
+    that is the question
+
+    an idea is a thing you can't grasp...
+
 ```
+
+ #space , is it/
+
+     ϵ :: nothing # is it a smallest thign somehing ,
 
 end
