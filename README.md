@@ -32,9 +32,9 @@ this repo explains **accounting methods**
 ## the Applied Plane
 edited the Asset directory
 ## the Abstract Plane
-reached
- 1. the []()value 
- 2. the Idea 
+Reached (Still Pondering Upon):
+ 1. the [value](https://github.com/adamwillisXanax/Thee-accountant/blob/main/src/Accounting/abstractTypes/Value.jl)
+ 2. the [Idea](https://github.com/adamwillisXanax/Thee-accountant/blob/main/src/Accounting/abstractTypes/idea.jl)
  
 ## References
 (being ready to get compiled & written)
