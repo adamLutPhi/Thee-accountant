@@ -18,10 +18,10 @@ this repo explains **accounting methods**
 # Vision 
 
  A functioning program that 
--draws (outputs) financial regular reports  
--SOCI (statement of Comprehensive Invome)
--Balance Sheet 
--Advanced: statement of cashflows 
+-draws (outputs) financial regular reports <br/> 
+-SOCI (statement of Comprehensive Invome) <br/>
+-Balance Sheet <br/>
+-Advanced: statement of cashflows <br/> 
 
 
 -abides with dual acocunting regulation:
@@ -48,3 +48,10 @@ you can access the license from [here](src/LICENSE.md)
 ## Disclaimer
 this is for Educational purposes only
 The author won't not be held responsible, for any immature actions, & or signs of code abuse, at all costs
+
+
+## Author
+
+[![Logo](https://github.com/adamwillisXanax/adamwillisXanax/blob/main/Assets/logo.png)
+](https://github.com/adamwillisXanax/adamwillisXanax)
+
