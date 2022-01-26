@@ -1,6 +1,6 @@
 
 
-mutable struct drAccount <: Account
+struct drAccount <: Account
     #fields
 
 

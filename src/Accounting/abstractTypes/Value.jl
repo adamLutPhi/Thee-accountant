@@ -18,6 +18,6 @@ is there something else (you could think of ?)
 ```
 struct Value <: idea
 
-    time #estimated time
-    effort
+    time #estimated time - how much time spent (is it kuantifiable?, monitizable?)
+    effort 
 end

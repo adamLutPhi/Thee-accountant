@@ -4,5 +4,4 @@
     bookValue::Double
     marketValue:Double
 
-    end
 end

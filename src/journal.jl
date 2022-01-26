@@ -26,6 +26,17 @@ written down in 5 different seperate entities (structures)
 
 """
 
+module journal
+
+function transaction(drAccount,crAccount,)
+
+
+end 
+end
+
+
+#=
+
 function read()
 
 end
@@ -44,3 +55,4 @@ end
 
 
 end
+=#
