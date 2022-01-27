@@ -20,18 +20,21 @@ what makes an idea, an idea?
 ```
 
 struct idea <: Nothing # is it nothing, or something.. of value??
-```
-is it nothing, in the real plane, or in the complex plane
-(before that) where does the real plane start, & the complex plane meet with it?
+    ```
+    is it nothing, in the real plane, or in the complex plane
+    (before that) where does the real plane start, & the complex plane meet with it?
+    
+        that is the question
+    
+        an idea is a thing you can't grasp...
+    
+    ```
 
-    that is the question
+    #space , is it/
 
-    an idea is a thing you can't grasp...
 
-```
+    ϕ::nothing
+    ϵ=10^-6 # is it a smallest thing - of value 
 
- #space , is it/
-
-     ϵ :: nothing # is it a smallest thign somehing ,
 
 end

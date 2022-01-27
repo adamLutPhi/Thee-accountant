@@ -35,7 +35,7 @@ written down in 5 different seperate entities (structures)
 
 #module journal
 #get drAccount, crAccount
-@test function transaction(drAccount,crAccount,amount)
+@test function transaction(dr=1,cr=1 ,drAccount,crAccount,amount)
 
 return 
 end 
