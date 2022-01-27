@@ -1,6 +1,10 @@
 
 # Thee Accountant
 
+An accounting information processing 
+
+
+
 [![wakatime](https://wakatime.com/badge/user/e5f8f2ad-46c8-449c-9ccb-a1f10dfae801/project/b1919a10-df1b-4742-889b-a520ddb7a401.svg)](https://wakatime.com/badge/user/e5f8f2ad-46c8-449c-9ccb-a1f10dfae801/project/b1919a10-df1b-4742-889b-a520ddb7a401)
 ## Accounting methods
 
@@ -11,8 +15,10 @@ this model assumes:
 
 this repo explains **accounting methods**
 - the accounting equation 
-- Accounting double-checking system, while daily journaling (accounting activity):
-- double addition (in both Debit & credit on  addition into corrsonding 2-Accounts
+- Accounting double-checking system
+- (Daily) journaling (accounting activity):
+- double addition (in both Debit & credit) [& checking]
+- to a corrsonding T-Accounts
 
 
 # Vision 

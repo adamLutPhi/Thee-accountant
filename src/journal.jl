@@ -1,7 +1,6 @@
-module
+module journal
 using UUIDs
-#usingS
-#uuid4()
+
   """
 #Accounting jounal
 to keep tabs on day-to-day accounting activities
@@ -26,11 +25,11 @@ written down in 5 different seperate entities (structures)
 
 """
 
-module journal
+#module journal
+#get drAccount, crAccount
+@test function transaction(drAccount,crAccount,amount)
 
-function transaction(drAccount,crAccount,)
-
-
+return 
 end 
 end
 
