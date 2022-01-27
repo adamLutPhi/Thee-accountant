@@ -1,0 +1,1 @@
+struct nonfixedIncome :> Income end

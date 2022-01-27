@@ -1,0 +1,2 @@
+
+struct fixedIncome :> Income end

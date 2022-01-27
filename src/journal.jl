@@ -4,13 +4,21 @@ using UUIDs
 #uuid4()
   """
 #Accounting jounal
-to keep tabs on day-to-day accounting activities
+aka "General Journal"
+to keep tabs on day-to-day money activities (to value)
+we have to keep 
 sample Transaction:
 Date   Dr account amount
                          Cr Account amount
 in each transaction:
-the amount is written twice in the same transaction
-auto-check for match -might be needed (though it's hardcoded to yeild the same result)
+1.date of an entry (with time if entries are more frequent, i.e. day-trading)
+2. comment on this  journal entry 
+3.
+the amount is written twice in the same transaction:
+1. Debit side( on the Right) where the debit account name is written [plus the amount (default:\$ or other currency)]
+2. credit side (on the Left) where the credit account namee is written [plus the amount (default:\$ or other currency)  ]
+3.auto-checking for match -might be needed  [TODO: reactive journaling with gui]
+(though it's hardcoded to yeild the same result)
 
 the transaction is also written
 2. in dr account's book
