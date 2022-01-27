@@ -1,0 +1,3 @@
+
+
+struct income :> Capital end
