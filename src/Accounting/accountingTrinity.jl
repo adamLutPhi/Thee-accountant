@@ -142,7 +142,7 @@ while i<1 #!eof(f)
     print("please say something")
     line = readline()#readline(f)
     # splits on spaces and casts to T
-    _out = id, s = split(s, '')#produce(map(x -> parse(T, x), split(line)))
+    _out = id, s = split(s, "")#produce(map(x -> parse(T, x), split(line)))
 i=i+1
 end
 print(_out)
@@ -151,7 +151,7 @@ print(_out)
 
 
 function parsestuff(file)
-    if(file == nothing) result = ""
+    if(file isa nothing) result = ""
     else
     buf = read(file)
     len = length(buf)

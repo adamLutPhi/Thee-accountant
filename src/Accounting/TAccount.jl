@@ -79,14 +79,14 @@ elseif Dr == 2 & cr == 1
 
 end
 
-function transactionRead(Dr, Cr, CreditAccount, CreditAccount, amount)
+function transactionRead(Dr, Cr, CreditAccount, CreditAccount2, amount)
 
 end 
-function transactionRead(Dr, Cr, DebitAccount, DebitAccount, amount)
+function transactionRead(Dr, Cr, DebitAccount, DebitAccount2, amount)
 
 end
 
-  function transaction(DebitAccount, DebitAccount, amount)
+  function transaction(DebitAccount, DebitAccount2, amount)
     """ 
     deduct from first account, add to the second account 
     """
@@ -140,5 +140,5 @@ end
 
   end
 
-  transaction()
+  #transaction()
 end
