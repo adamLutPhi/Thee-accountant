@@ -1,7 +1,8 @@
+
 authors = "ahmad lutfi <obzajd@gmail.com>"
 
 name = "Thee-accountant"
 
-UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+uuid = "7a052949-c101-4ca3-9a7e-43a2532b2fa8"
 
 version = "0.1.0"
