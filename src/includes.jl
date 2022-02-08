@@ -3,4 +3,5 @@
 
 include("book.jl")
 include("journal.jl")
+include("journal.jl")
 

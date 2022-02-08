@@ -1,4 +1,4 @@
-
-mutable struct houseMortgage
+include("Mortgage.jl")
+mutable struct houseMortgage <: Mortgage
 
 end

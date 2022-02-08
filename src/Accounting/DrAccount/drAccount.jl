@@ -21,26 +21,40 @@ Assets:
 -PC
 
 ----------
-Liabilities
-
--Adding a creditor(accounts payable): i.e. pay you later  A/c 
-creditoraccount is opened, if existing, the amount is accumulated 
+Liabilities <: (crAccount)
+loans(short, longterm)
+cr (liability)(+), dr (liability)(-):
+examples
+-Adding a creditor(accounts payable): i.e. paying off  a creditor A/c 
+If creditoraccount is existing, &
+if amount is all paid, then close it 
 
 ----------
-Capital 
+Capital  <:(crAccount)
+dr (crAccount)  a decrease in a capital account 
 
--paying charges: #paying off a service
+-Drawings: Capital drawings less Capital -> more asset e.g.:
+dr capital 
+   cr asset 
+dr bankaccount 
+   cr asset
+
+Decrease in capital account [ (i.e. bank account) in order to increase short-term asset in return i.e. cash ]
+-paying charges: 
+#paying off a service
 --one time fees 
---recurring (subscriptions)
+--recurring (subscriptions) , fixed spending (mortgage, rent)
 
 -loss(es) (Incurred) #from (running small) busineess
 
 ----------
 
-
 """
+
 struct drAccount <: Account
     #fields
 
+    drAccount()
 
-end
+        
+    end

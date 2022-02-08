@@ -29,8 +29,9 @@ together, they make up the following Golden (brown) Equation:
 # the Accounting Equation , :
 ## Assets = Liabilites + Capital
 
+include
 ## ---
-
+export calcCapital, capital,liability
 module findtheThird
 #nothing, yet - chop chop, gotta go, are you there yet, where you at!
 end
@@ -40,7 +41,7 @@ capital = parsemissing( input("please insert total $capital"))  # insert a value
 # print("capital:   $capital") # TODO: Ignore Alpha words -- REGEX  - maybe later -- I guessed it
 #@assert capital >= 0
 
-export calcCapital, capital,liability
+
 #=
 function calcCapital(totalAssets,totalLiabilities)
 asset = abs(totalAssets);  liability = abs(totalLiabilites) #edit: I don't recall writing those , conciously -wow
@@ -101,13 +102,13 @@ function _sth parse(::Type{T}, s::AbstractString) where T
 end
 =#
 
-function prompt(message="How are you feeling?")
-print(message*"\n")
-line = readline() #read
-# splits on spaces and casts to T
-result = produce(map(x -> parse(T, x), split(line)))
-return result # parsebin(line)
-end
+    function prompt(message="How are you feeling?")
+    print(message*"\n")
+    line = readline() #read
+    # splits on spaces and casts to T
+    result = produce(map(x -> parse(T, x), split(line)))
+    return result # parsebin(line)
+    end
 
 #---
 # num = parse(Number, line)
@@ -135,11 +136,10 @@ end
 prompt("How are you feeling?") #it did NOT Prompt - I Swear it's over
 
 #---  ap(x -> parse(T, x)
-#it's so calm - I hear nobody, oh wait, tere a a sound feels like mom's - is she back -- maybe it's my imagination
 _out =""
 i=0
 while i<1 #!eof(f)
-    print("please say something")
+    print("anything else?")
     line = readline()#readline(f)
     # splits on spaces and casts to T
     _out = id, s = split(s, "")#produce(map(x -> parse(T, x), split(line)))
@@ -150,23 +150,24 @@ print(_out)
 #--- testing Area: parse stuff - input: file
 
 
-function parsestuff(file)
-    if(file isa nothing) result = ""
+    function parsestuff(file)
+    if (file isa nothing)
+        result = ""
     else
-    buf = read(file)
-    len = length(buf)
-    pos = 1
-    opts = Parsers.Options(delim=' ', wh1=0x00)
-    while pos <= len
-        res = Parsers.xparse(Int, buf, pos, len, opts)
-        if Parsers.ok(res.code)
-            # parsing succeeded, do stuff with res.val
+        _buffer = read(file)
+        len = length(_buffer)
+        pos = 1
+        opts = Parsers.Options(delim = ' ', wh1 = 0x00)
+        while pos <= len
+            res = Parsers.xparse(Int, buf, pos, len, opts)
+            if Parsers.ok(res.code)
+                # parsing succeeded, do stuff with res.val
+            end
+            pos += res.tlen
         end
-        pos += res.tlen
     end
-end
-end # needed this little end - made out of 3 chars, in the end
+end # needed
 
 
-result = parsestuff(input("how are you doing?"))  # for file or directory - knock, knock you're there ? --not yet -can I have a Cold Brew -- I LIKE A PIZZAss , I'm up to it --- me too ! count me in
+result = parsestuff(input("how are you doing?"))  # for file or directory - knock, knock you're there ? 
 print(result)

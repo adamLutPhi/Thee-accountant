@@ -22,6 +22,7 @@ has a value
 Changing based on inflation
 
 a generic dollar amount , has a value Changing based on inflation
+TODO: simple math interpolation
 ```
 function _Xdollar(value, inflation=10^-1)
 

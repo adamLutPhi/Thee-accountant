@@ -13,6 +13,16 @@ module TAccount
 #@enum accountOp(@enum Dr 1 2, @enum Cr 1 2)
 #@enum accountOp(@enum Dr 1, @enum Cr 2)
 
+"""
+  1: dr drAccount cr crAccount
+  increase drAccount , increase crAccount
+  infer: there must be an incoming cash in-flow 
+  
+  2: dr crAccount cr drAccount   
+  decrease drAccount , decrease crAccount
+  infer: cash outflow
+
+"""
 
 """
 var: TypeVar
@@ -48,19 +58,14 @@ function DebitAccountAdd(date, drAccount, amount)
   """
 
   function transaction(Dr, Cr, DebitAccount, CreditAccount, amount)
+
+    
     """
     """
 
 
   end
   """
-  1: dr drAccount cr crAccount
-  increase drAccount , increase crAccount
-  infer: there must be an incoming cash in-flow 
-  
-  dr crAccount cr drAccount   
-  decrease drAccount , decrease crAccount
-  infer: cash outflow
 
 #transfers between accounts of the same type(Debit, or credit)
 

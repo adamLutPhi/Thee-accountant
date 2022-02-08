@@ -1,5 +1,5 @@
 
-mutable struct officeRent
+mutable struct officeRent <: Rent
 
 
 end

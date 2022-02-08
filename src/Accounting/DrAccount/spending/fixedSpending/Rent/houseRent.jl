@@ -1,9 +1,8 @@
 
 
-mutable struct houseRent
-end
+mutable struct houseRent <: Rent
 
-function paymonthly()
+
 
 
 end
