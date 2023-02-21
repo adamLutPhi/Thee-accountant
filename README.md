@@ -8,27 +8,27 @@ An accounting information processing
 
  _Assets = Liability + Capital_
 
+This model assumes:
 
-this model assumes:
-
-this repo explains **accounting methods**
+This repo explains the **Accounting Methods**:
+- Double Accounting Debit [Dr.] & credit [Dr.] [& checking]
 - the accounting equation 
 - Accounting double-checking system
-- (Daily) journaling (accounting activity):
-- double addition (in both Debit & credit) [& checking]
+- (Day-to-day ) journal Ledger (accounting activity):
+
 - to a corrsonding T-Accounts
 
 
 # Vision 
 
  A functioning program that 
--draws (outputs) financial regular reports <br/> 
--SOCI (statement of Comprehensive Invome) <br/>
--Balance Sheet <br/>
--Advanced: statement of cashflows <br/> 
+-Financial Reports: <br/> 
+- [] Income Statement (SOCI) [statement of Comprehensive Income] <br/>
+- [] Balance Sheet <br/>
+- []  Advanced: statement of cashflows <br/> 
 
 
--To abides with dual acocunting regulation:
+-To abide with dual acocunting regulation:
 - IFRS (worldwide)
 - GAAP (US)
 
@@ -51,7 +51,6 @@ you can access the license from [here](src/LICENSE.md)
 
 ## Disclaimer
 this is for Educational purposes only
-The author won't not be held responsible, for any immature actions, & or signs of code abuse, at all costs
 
 
 ## Author
