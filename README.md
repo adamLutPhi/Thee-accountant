@@ -11,7 +11,7 @@ An accounting information processing
 This model assumes:
 
 This repo explains the **Accounting Methods**:
-- Double Accounting Debit [Dr.] & credit [Dr.] [& checking]
+- [ x ] Double Accounting Debit [Dr.] & credit [Dr.] [& checking]
 - the accounting equation 
 - Accounting double-checking system
 - (Day-to-day ) journal Ledger (accounting activity):
